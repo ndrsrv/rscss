@@ -1,21 +1,21 @@
-## [v1.3.0] - Jun  3, 2015
+## [v1.3.0] - Июн  3, 2015
 
-Reorganized the document into clearer sections. No content changes.
+Реорганизация документа на более четкие разделы. Содержимое не изменено.
 
-* Introduction: updated this section to reflect the purpose of rscss better.
+* Введение: обновление раздела, чтобы лучше показать применимость rscss.
 
-## [v1.2.0] - Jun  3, 2015
+## [v1.2.0] - Июн  3, 2015
 
-* Add helpers.
-* Remove 'work in progress' icon — rscss should be considered pretty stable now.
+* Добавлены помощники.
+* Удалена иконка 'работа в процессе' — rscss уже может считаться достаточно описанным.
 
-## [v1.1.0] - Feb 10, 2015
+## [v1.1.0] - Фев 10, 2015
 
-Child selectors are now the preferred convention for styling elements. ([#2])
+Селектор потомков предпочтителен для стилизации элементов. ([#2])
 
-## v1.0.0 - Jan 30, 2015
+## v1.0.0 - Янв 30, 2015
 
-Initial version.
+Первая версия.
 
 [#2]: https://github.com/rstacruz/rscss/issues/2
 [v1.1.0]: https://github.com/rstacruz/rscss/compare/v1.0.0...v1.1.0

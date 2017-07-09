@@ -1,4 +1,4 @@
-# Nested components
+# Вложенные Компоненты
 
 ![](images/component-nesting.png)
 
@@ -12,18 +12,18 @@
 </div>
 ```
 
-Sometimes it's necessary to nest components. Here are some guidelines for doing that.
+Иногда необходимы вложенные Компоненты. Ниже есть несколько способов, как это сделать.
 
-## Variants
-A component may need to appear a certain way when nested in another component. Avoid modifying the nested component by reaching into it from the containing component.
+## Варианты
+Компонент нужно изменить, когда он вложен в другой Компонент. Вместо дописывания Варианта к цепочке вложенных Компонентов, сделайте это непосредственно с нужным Компнентом.
 
 ```scss
 .article-header {
-  > .vote-box > .up { /* ✗ avoid this */ }
+  > .vote-box > .up { /* ✗ избегайте подобного */ }
 }
 ```
 
-  Instead, prefer to add a variant to the nested component and apply it from the containing component.
+  Вместо этого, лучше добавить Вариант ко вложенному Компоненту и применить это к родительскому Кмопоненту.
 
 ```html
 <div class='article-header'>
@@ -40,8 +40,8 @@ A component may need to appear a certain way when nested in another component. A
 }
 ```
 
-## Simplifying nested components
-Sometimes, when nesting components, your markup can get dirty:
+## Упрощение вложенных Компонентов
+Иногда, когда есть вложенные Компоненты, разметка может загрязняться:
 
 ```html
 <div class='search-form'>
@@ -50,7 +50,7 @@ Sometimes, when nesting components, your markup can get dirty:
 </div>
 ```
 
-You can simplify this by using your CSS preprocessor's `@extend` mechanism:
+Это можно упростить, используя механизм препроцессора CSS `@extend`:
 
 ```html
 <div class='search-form'>
@@ -69,6 +69,6 @@ You can simplify this by using your CSS preprocessor's `@extend` mechanism:
 }
 ```
 
-What about repeating elements like lists? Learn about Layouts.
-[Continue →](layouts.md)
+Что насчёт повотряющихся Элементов, таких как списки? Узнаем о Слоях.
+[Далее →](layouts.md)
 <!-- {p:.pull-box} -->

@@ -1,7 +1,7 @@
-# Pitfalls
+# Ловушки
 
-## Bleeding through nested components
-Be careful about nested components with elements sharing the same name as elements in its container.
+## Проблемы вложенных компонентов
+Будьте осторожны со вложенными Компонентами, чьи Элементы имеют такие же названия, как Элементы в их общем контейнере.
 
 ```html
 <article class='article-link'>
@@ -29,4 +29,4 @@ Be careful about nested components with elements sharing the same name as elemen
 }
 ```
 
-In this case, if `.article-link > .count` did not have the `>` (child) selector, it will also apply to the `.vote-box .count` element. This is one of the reasons why child selectors are preferred.
+В этом примере, если `.article-link > .count` не имело бы `>` селектора по потомку, это бы применилось к `.vote-box .count` Элементу. Это одна из причин, почему селекторы потомков предпочтительнее.

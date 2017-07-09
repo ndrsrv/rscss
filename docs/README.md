@@ -1,19 +1,19 @@
-# Table of contents
+# Оглавление
 
 - [rscss](../README.md)
-- **Components**
-  - [About components](components.md)
-  - [Elements](elements.md)
-  - [Variants](variants.md)
-  - [Nested components](nested-components.md)
-  - [Layouts](layouts.md)
-  - [Helpers](helpers.md)
-- **Structure**
-  - [CSS Structure](css-structure.md)
-- **Notes**
-  - [Pitfalls](pitfalls.md)
-  - [Apprehensions](apprehensions.md)
-  - [Other resources](other-resources.md)
-- [Summary](summary.md)
-- **External resources**
-  - [Translations](translations.md)
+- **Компоненты**
+  - [О Компонентах](components.md)
+  - [Элементы](elements.md)
+  - [Варианты](variants.md)
+  - [Вложенные Компоненты](nested-components.md)
+  - [Слои](layouts.md)
+  - [Помощники](helpers.md)
+- **Структура**
+  - [Структура CSS](css-structure.md)
+- **Заметки**
+  - [Ловушки](pitfalls.md)
+  - [Опасения](apprehensions.md)
+  - [Другие источники](other-resources.md)
+- [Итоги](summary.md)
+- **Доп. источники**
+  - [Переводы](translations.md)

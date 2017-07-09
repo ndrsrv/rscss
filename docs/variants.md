@@ -1,13 +1,13 @@
-# Variants
+# Варианты
 
-Components may have variants. Elements may have variants, too.
+Компоненты могут иметь Варианты. Элементы тоже могут иметь Варианты.
 
 ![](images/component-modifiers.png)
 
 <br>
 
-## Naming variants
-Classnames for variants will be prefixed by a dash (`-`).
+## Именование Вариантов
+Названия классов для Вариантов должны быть с префиксом в виде дефиса (`-`).
 
   ```scss
   .like-button {
@@ -17,8 +17,8 @@ Classnames for variants will be prefixed by a dash (`-`).
   }
   ```
 
-## Element variants
-Elements may also have variants.
+## Варианты Элементов
+Элементы также могут иметь Варианты.
 
   ```scss
   .shopping-card {
@@ -27,14 +27,14 @@ Elements may also have variants.
   }
   ```
 
-## Dash prefixes
-Dashes are the preferred prefix for variants.
+## Перфикс в виде дефиса
+Дефисы это предпочитаемый префикс для Вариантов.
 
-  * It prevents ambiguity with elements.
-  * A CSS class can only start with a letter, `_` or `-`.
-  * Dashes are easier to type than underscores.
-  * It kind of resembles switches in UNIX commands (`gcc -O2 -Wall -emit-last`).
+  * Это предотвращает схожесть с Элементами.
+  * Класс CSS может начинаться только с буквы, `_` или `-`.
+  * Дефисы проще печатать, чем нижние подчёркивания.
+  * Немного напоминает опции в UNIX командах (`gcc -O2 -Wall -emit-last`).
 
-How do you deal with complex elements? Nest them.
-[Continue →](nested-components.md)
+Как справиться со сложными Компонентами? Вложите их друг в друга.
+[Далее →](nested-components.md)
 <!-- {p:.pull-box} -->

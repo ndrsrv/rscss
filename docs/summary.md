@@ -1,7 +1,7 @@
-# Summary
+# Итого
 
-* Think in **components**, named with 2 words (`.screenshot-image`)
-* Components have **elements**, named with 1 word (`.blog-post > .title`)
-* Name **variants** with a dash prefix (`.shop-banner.-with-icon`)
-* Components can nest
-* Remember you can extend to make things simple
+* Думайте **Компонентами**, называйте 2 словами (`.screenshot-image`)
+* Компоненты содержат **Элементы**, называйте их 1 словом (`.blog-post > .title`)
+* Именуйте **Варианты** с префиксом нижнего подчёркивания (`.shop-banner.-with-icon`)
+* Компоненты могут вкладываться
+* Помните, вы можете сделать вещи проще

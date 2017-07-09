@@ -1,4 +1,4 @@
-##### Viewing this from GitHub? Visit the website for the full experience. **[rscss.io →](http://rscss.io)**
+##### Увидели это на GitHub? Посетите сайт, там читать удобней. **[rscss.io →](http://rscss.io)**
 <!-- {h5: style='display:none'} -->
 
 ----
@@ -8,31 +8,31 @@
 
 <!-- {h1:.massive-header.-with-tagline} -->
 
-> Styling CSS without losing your sanity
+> Как не тронуться умом, работая с CSS
 
-Reasonable System for CSS Stylesheet Structure.<br>
-A set of simple ideas to guide your process of building maintainable CSS.
+Толковая система для упорядочивания стилей CSS.<br>
+Набор простых идей для разработки легкоподдерживаемого CSS.
 
-Introduction
+Введение
 ------------
 
-Any CSS greater than 1000 lines will get unwieldy. You'll eventually run into these common pitfalls:
+Любой CSS, в котором более 1000 строк, будет слишком громоздким. В конце концов вы схватитесь за голову и спросите себя:
 
-* "What does this class mean?"
-* "Is this class still being used?"
-* "If I make a new class `green`, will there be a clash?"
+* "Что этот класс означает?"
+* "Этот класс по-прежнему используется?"
+* "Если я создам новый класс `green`, будет ли он конфликтовать с другими классами?"
 
-**rscss** is an attempt to make sense of all these. It is not a framework. It's simply a set of ideas to guide your process of building maintainable CSS for any modern website or application.
+**rscss** решение всех этих проблем. Это не фреймворк. Это просто набор идей, как вы можете создавать легкоподдерживаемый CSS для любого современного сайта или приложения.
 
-Let's get started by learning about components.
-[Continue →](docs/components.md)
+Давайте начнём с изучения Компонентов.
+[Далее →](docs/components.md)
 <!-- {p:.pull-box} -->
 
 ----
 <!-- {hr: style='display:none'} -->
 
-**rscss** © 2015+, Rico Sta. Cruz. Released under the [MIT] License.<br>
-Authored and maintained by Rico Sta. Cruz with help from contributors ([list][contributors]).
+**rscss** © 2015+, Rico Sta. Cruz. Распространяется под лицензией [MIT].<br>
+Создан и поддерживается Rico Sta. Cruz при содействии других разработчиками ([список][contributors]).
 <!-- {p: style='display:none'} -->
 
 > [ricostacruz.com](http://ricostacruz.com) &nbsp;&middot;&nbsp;
