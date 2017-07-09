@@ -1,22 +1,22 @@
-# Layouts
+# Слои
 
 ![](images/layouts.png)
 
-## Avoid positioning properties
-Components should be made in a way that they're reusable in different contexts. Avoid putting these properties in components:
+## Избегайте позиционируемых свойств
+Компоненты сделаны таким способом, чтобы использоваться в различном контексте. Избегайте помещения следующих свойств в Компоненты:
 
-  * Positioning (`position`, `top`, `left`, `right`, `bottom`)
-  * Floats (`float`, `clear`)
-  * Margins (`margin`)
-  * Dimensions (`width`, `height`) *
+  * Позиционирование (`position`, `top`, `left`, `right`, `bottom`)
+  * Флоаты (`float`, `clear`)
+  * Внешние отступы (`margin`)
+  * Размеры (`width`, `height`) *
 
-## Fixed dimensions
+## Фиксированные размеры
 
-Exception to these would be elements that have fixed width/heights, such as avatars and logos.
+Исключением могут быть Элементы с фиксированной шириной/высотой, такие как аватары или лого.
 
-## Define positioning in parents
+## Установка позиционирования в родителях
 
-If you need to define these, try to define them in whatever context they will be in. In this example below, notice that the widths and floats are applied on the *list* component, not the component itself.
+Если нужно установить что-то из четырёх свойств, приведённых выше, делйате это в любом контексте, в котором расположен Компонент. В примере ниже, заметьте, что ширина и флоаты установлены внутри Компонента *список статей*, а не к самому Компоненту статьи.
 
   ```css
   .article-list {
@@ -38,6 +38,6 @@ If you need to define these, try to define them in whatever context they will be
   }
   ```
 
-How do you apply margins outside a layout? Try it with Helpers.
-[Continue →](helpers.md)
+Как применить отступы снаружи Слоя? Попробуйте Помощников.
+[Далее →](helpers.md)
 <!-- {p:.pull-box} -->

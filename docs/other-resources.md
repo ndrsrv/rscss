@@ -1,16 +1,16 @@
-# Other resources
+# Другие источники
 
- * [ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss#49) ("Inverted Triangle CSS") is a nice complement to any rscss structure.
- * [rsjs](http://ricostacruz.com/rsjs/) ("Reasonable Standard of JavaScript Structure") is a work-in-progress document for structuring JavaScript on basic sites.
+ * [ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss#49) ("CSS Перевёрнутый Треугольник") хорошее дополнение к любой rscss структуре.
+ * [rsjs](http://ricostacruz.com/rsjs/) ("Понятный стандарт для структуры JavaScript") упорядочивание JavaScript для простых сайтов.
 
-Other solutions
+Другие решения
 ---------------
 
-### BEM
-[BEM] is nice, but some may be irked at its unconventional syntax. RSCSS pretty much follows BEM conventions, only with a different syntax.
+### БЭМ
+[БЭМ] хорош, но иногда может раздражать необычным синтаксисом. RSCSS довольно много взял из БЭМ, только с другим синтаксисом.
 
 ```html
-<!-- BEM -->
+<!-- БЭМ -->
 <form class='site-search site-search--full'>
   <input  class='site-search__field' type='text'>
   <button class='site-search__button'></button>
@@ -25,16 +25,16 @@ Other solutions
 </form>
 ```
 
-## Terminologies
+## Терминология
 
-The same concepts exist in similar ways in other CSS structuring ideologies.
+Некоторые концепты обладают похожей идеологией структурирования CSS.
 
-| RSCSS     | BEM      | SMACSS        |
-| ---       | ---      | ---           |
-| Component | Block    | Module        |
-| Element   | Element  | Sub-Component |
-| Layout    | ?        | Layout        |
-| Variant   | Modifier | Sub-Module & State |
+| RSCSS     | БЭМ         | SMACSS        |
+| ---       | ---         | ---           |
+| Компонент | Блок        | Module        |
+| Элемент   | Элемент     | Sub-Component |
+| Слой      | ?           | Layout        |
+| Вариант   | Модификатор | Sub-Module & State |
 
-[BEM]: http://bem.info/
+[БЭМ]: http://bem.info/
 [Smacss]: https://smacss.com/

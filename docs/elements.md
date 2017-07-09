@@ -1,11 +1,11 @@
-# Elements
+# Элементы
 
-Elements are things inside your component.
+Элементы это части внутри вашего Компонента.
 
 ![](images/component-elements.png)
 
-## Naming elements
-Each component may have elements. They should have classes that are only **one word**.
+## Именование Элементов
+Каждый Компонент может содержать Элементы. Они описываются классами в названии которых **одно слово**.
 
 ```scss
 .search-form {
@@ -14,18 +14,18 @@ Each component may have elements. They should have classes that are only **one w
 }
 ```
 
-## Element selectors
-Prefer to use the `>` child selector whenever possible. This prevents bleeding through nested components, and performs better than descendant selectors.
+## Селекторы элемента
+Лучше использовать `>` селектор потомка, где это возможно. Это препятствует просачиванию во вложенные компоненты, и производительней, чем последовательные селекторы.
 
 ```scss
 .article-card {
-  .title     { /* okay */ }
-  > .author  { /* ✓ better */ }
+  .title     { /* так можно */ }
+  > .author  { /* ✓ так лучше */ }
 }
 ```
 
-## On multiple words
-For those that need two or more words, concatenate them without dashes or underscores.
+## Несколько слов
+Для тех, кому нужно два и более слов в названии элемента, объедините их без дефисов или подчёркиваний.
 
 ```scss
 .profile-box {
@@ -35,16 +35,16 @@ For those that need two or more words, concatenate them without dashes or unders
 }
 ```
 
-## Avoid tag selectors
-Use classnames whenever possible. Tag selectors are fine, but they may come at a small performance penalty and may not be as descriptive.
+## Избегайте селекторов по тегу
+Используйте имена классов, где это возможно. Селекторы по тегу прекрасны, но они могут снизить эффективность и могут быть малоинформативны.
 
 ```scss
 .article-card {
-  > h3    { /* ✗ avoid */ }
-  > .name { /* ✓ better */ }
+  > h3    { /* ✗ избегайте подобного */ }
+  > .name { /* ✓ так лучше */ }
 }
 ```
 
-Not all elements should always look the same. Variants can help.
-[Continue →](variants.md)
+Не только лишь все элементы могут выглядеть одинаково. Варианты помогут с этим.
+[Далее →](variants.md)
 <!-- {p:.pull-box} -->

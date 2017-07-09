@@ -1,20 +1,20 @@
-# Apprehensions
+# Опасения
 
-Some people may have apprehensions to these conventions, such as:
+У некоторых людей может возникать неприязнь подобного стиля именования CSS, например:
 
-#### "But dashes suck"
+#### "Но дефисы отвратительны"
 
-You're free to omit them and just use regular words, but keep the rest of the ideas in place (components, elements, variants).
+Вы свободны опустить их и использовать обычные слова, но придерживайтесь основной идеи (Компоненты, Элементы, Варианты).
 
-#### "But I can't think of 2 words!"
+#### "Но я не могу придумать 2 слова!"
 
-Some components will only need one word to express their purpose, such as `alert`. In these cases, consider that using some suffixes will make it clearer that it's a block-level element:
+Некоторые Компоненты описываются только одним словом, таким как `alert`. В таком случае, можно использовать некоторые дополнения, которые сделают их более ясными в отношениях блочной модели:
 
   * `.alert-box`
   * `.alert-card`
   * `.alert-block`
 
-  Or for inlines:
+  Или для строк:
 
   * `.link-button`
   * `.link-span`
